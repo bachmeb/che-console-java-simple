@@ -9,7 +9,6 @@ public class HelloWorld {
         String a = "Che";
         System.out.println("Hello World " + a + "!");
 
-
         HelloWorld me = new HelloWorld();
 
         me.addOneAndOne();
@@ -18,7 +17,7 @@ public class HelloWorld {
 
     private void addOneAndOne(){
 
-        int sum = Calculator.add(1,1);
+        int sum = Calculator.addInt(1,1);
 
         System.out.println("One and one is " + sum + "!");
 
