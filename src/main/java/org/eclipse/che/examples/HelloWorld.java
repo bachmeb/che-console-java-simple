@@ -8,5 +8,19 @@ public class HelloWorld {
     public static void main(String... argvs) {
         String a = "Che";
         System.out.println("Hello World " + a + "!");
+
+
+        HelloWorld me = new HelloWorld();
+
+        me.addOneAndOne();
+
+    }
+
+    private void addOneAndOne(){
+
+        int sum = Calculator.add(1,1);
+
+        System.out.println("One and one is " + sum + "!");
+
     }
 }
